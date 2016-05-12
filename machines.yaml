@@ -1,0 +1,26 @@
+---
+- name: "puppet"
+  box: "puppetlabs/centos-7.2-64-nocm"
+  nic:
+    - {type: "private_network", ip: "10.25.0.10"}
+  ram: 4096 
+  cpu: 2
+- name: ""
+  box: "puppetlabs/centos-7.2-64-nocm"
+  nic:
+    - {type: "private_network", ip: "10.25.0.11"}
+  ram: 1024
+  cpu: 1
+- name: ""
+  box: "puppetlabs/centos-7.2-64-nocm"
+  nic:
+    - {type: "private_network", ip: "10.25.0.12"}
+  ram: 1024
+  cpu: 1
+- name: ""
+  box: "puppetlabs/centos-7.2-64-nocm"
+  nic:
+    - {type: "private_network", ip: "10.25.0.13"}
+  ram: 1024
+  cpu: 1
+
